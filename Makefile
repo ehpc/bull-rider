@@ -1,7 +1,7 @@
 PROTOBUFDIR=$(CURDIR)/protobuf
 PROTOSDIR=$(PROTOBUFDIR)/protos
 PROTOBUFGODIR=$(PROTOBUFDIR)/go
-MODNAME=ehpc.io/bull-rider
+MODNAME=github.com/ehpc/bull-rider
 
 PROTOC=protoc
 

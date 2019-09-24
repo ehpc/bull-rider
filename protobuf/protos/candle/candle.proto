@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package candle;
-option go_package = "ehpc.io/bull-rider/protobuf/go/candle";
+option go_package = "github.com/ehpc/bull-rider/protobuf/go/candle";
 
 import "pair/pair.proto";
 

@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package pair;
-option go_package = "ehpc.io/bull-rider/protobuf/go/pair";
+option go_package = "github.com/ehpc/bull-rider/protobuf/go/pair";
 
 // Pair is a trading pair
 enum Pair {
