@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package candle;
+option go_package = "ehpc.io/bull-rider/protobuf/go/candle";
+
+import "pair/pair.proto";
+
+// Candle is an exhange candle
+message Candle {
+    int32 exchange = 1;
+    pair.Pair pair = 2;
+    int64 interval = 3;
+    int64 open_time = 4;
+    int64 close_time = 5;
+    double open = 6;
+    double close = 7;
+    double high = 8;
+    double low = 9;
+    double volume = 10;
+    double quote_volume = 11;
+    int64 trandes_number = 12;
+}
+
+// Candles is an array of candles
+message Candles {
+    repeated Candles candles = 1;
+}

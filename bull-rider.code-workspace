@@ -6,5 +6,10 @@
 		{
 			"path": "/home/ehpc/OneDrive/projects/dev/trading-bot/bull-rider-exchange-candle-service"
 		}
-	]
+	],
+	"settings": {
+		"cSpell.words": [
+			"binance"
+		]
+	}
 }
