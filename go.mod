@@ -1,4 +1,4 @@
-module ehpc.io/bull-rider
+module github.com/ehpc/bull-rider
 
 go 1.13
 
