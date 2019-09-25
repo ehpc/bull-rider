@@ -3,13 +3,11 @@ syntax = "proto3";
 package candle;
 option go_package = "github.com/ehpc/bull-rider/protobuf/go/candle";
 
-import "pair/pair.proto";
-
 // Candle is an exhange candle
 message Candle {
-    int32 exchange = 1;
-    pair.Pair pair = 2;
-    int64 interval = 3;
+    string exchange = 1;
+    string pair = 2;
+    string interval = 3;
     int64 open_time = 4;
     int64 close_time = 5;
     double open = 6;
