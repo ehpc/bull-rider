@@ -16,7 +16,7 @@ message Candle {
     double low = 9;
     double volume = 10;
     double quote_volume = 11;
-    int64 trandes_count = 12;
+    int64 trades_count = 12;
 }
 
 // Candles is an array of candles
